@@ -29,10 +29,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	width: 15rem;
 }
 
+header.header-shadow {
+	overflow-x: hidden;
+}
+
+
+.vi-fester-z-index{
+	margin-top: -100px;
+	z-index: 1000;
+}
+
 .vi-fester-text{
 	font-size: 24px;
-	margin-top: -60px;
-	z-index: 1000;
+
 }
 
 .big-numbers{
