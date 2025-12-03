@@ -30,7 +30,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 header.header-shadow {
-	overflow-x: hidden;
 }
 
 
@@ -114,29 +113,16 @@ header.header-shadow {
 
 
 
-#wave {
-	position: absolute;
-	height: 70px;
-	width: 600px;
-	background: #e0efe3;
-}
-
-
-svg {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
 .wave {
-	display: inline-block;
-	position: relative;
+	position: absolute;
 	width: 100%;
-	padding-bottom: 100%;
-	vertical-align: middle;
-	overflow: hidden;
-
+	z-index: 9999;
 }
+
+.wave path{
+	fill: #FF0000;
+}
+
 
 
 
