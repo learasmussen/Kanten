@@ -25,3 +25,92 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+.top-image{
+	width: 15rem;
+}
+
+.vi-fester-text{
+	font-size: 24px;
+	margin-top: -60px;
+	z-index: 1000;
+}
+
+.big-numbers{
+	font-size: 96px;
+}
+
+.juli-text{
+	font-size: 24px;
+}
+
+.overskrifter-text{
+	font-size: 45px;
+}
+
+.vertical-text{
+	writing-mode: vertical-lr;
+	font-size: 45px;
+}
+
+.performers-text{
+	font-size: 24px;
+}
+
+.button-text{
+	font-size: 16px;
+}
+
+.other-text{
+	font-size: 13px;
+}
+
+.maps{
+	width: 17rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wave {
+	position: absolute;
+	height: 70px;
+	width: 600px;
+	background: #e0efe3;
+}
+
+
+svg {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wave {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+
+}
+
+
+
+
+
+
