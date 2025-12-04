@@ -74,7 +74,25 @@ header.header-shadow {
 
 .maps{
 	width: 17rem;
+	z-index: 1000;
 }
+
+
+.section-program-index {
+	margin-top: -65px;
+	z-index: -200;
+}
+
+.section-sponsor-index {
+	margin-top: -100px;
+	z-index: -225;
+}
+
+.maps-index{
+	z-index: 100;
+	margin-top: -3px;
+}
+
 
 /* Program-container: inner shadow top + bottom */
 .program-container {

@@ -14,7 +14,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body >
+
+
+<nav class="container-fluid fixed-bottom"
+	 style="position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9999;">
+
+	<div class="row d-flex justify-content-evenly">
+		<div class="p-0">
+			<img src="waves/nav-wave.png" alt="nav-wave" style="width: 100%;">
+		</div>
+	</div>
+
+	<div class="row bg-brown d-flex justify-content-evenly pb-3">
+		<a href="toiletter.html" class="col-2">
+			<i class="fa-solid fa-toilet-paper text-beige"></i>
+		</a>
+		<a href="scener.html" class="col-2">
+			<i class="fa-solid fa-map-pin text-beige"></i>
+		</a>
+		<a href="index.html" class="col-2">
+			<i class="fa-solid fa-house text-beige"></i>
+		</a>
+		<a href="mad.html" class="col-2">
+			<i class="fa-solid fa-burger text-beige"></i>
+		</a>
+		<a href="opladning.html" class="col-2">
+			<i class="fa-solid fa-battery-empty text-beige"></i>
+		</a>
+	</div>
+
+</nav>
+
 
 <header class="container bg-brown header-shadow position-relative">
 	<div class="row">
@@ -27,15 +58,15 @@
 		</div>
 	</div>
 
-	<!--<div class="wave">
-		<svg viewBox="0 0 500 120" class="" >
-			<path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; z-index: 1000" class="shadow"></path>
-		</svg>
-	</div>-->
+
 </header>
 
-<section class="bg-beige container-fluid program-container">
-	<div class="row d-flex justify-content-center align-items-center pb-3">
+<div>
+	<img src="waves/brown-wave.png" alt="brown-wave" style="width: 100%; z-index: 10000">
+</div>
+
+<section class="bg-beige container-fluid program-container section-program-index">
+	<div class="row d-flex justify-content-center align-items-center pt-4 pb-5">
 		<div class="col-3 vertical-text text-uppercase text-red fw-bold px-0 pt-4 ">
 			PROGRAM
 		</div>
@@ -43,34 +74,46 @@
 			<span class="text-uppercase fw-bold big-numbers text-red mb-3">26<span class="juli-text">Juli</span></span>
 			<p class="text-uppercase fw-bold performers-text text-red m-0 ">apacha</p>
 			<p class="text-uppercase fw-bold performers-text text-red m-0">zara larson</p>
-			<p class="text-uppercase fw-bold performers-text text-red m-0 pb-3">rasmus seebach</p>
-			<div class="pb-2">
+			<p class="text-uppercase fw-bold performers-text text-red m-0 pb-2">rasmus seebach</p>
+			<div class="pb-4">
 			<button class="rounded-pill bg-red text-uppercase border-0 fw-bold px-3 py-2 button-text"><a href="program.html" class="text-beige text-decoration-none">se program</a></button>
 			</div>
 		</div>
 	</div>
 </section>
 
-<article class="container-fluid">
-	<div class="row">
-		<div class="col-8 ps-3 pt-3 text-uppercase fw-bold text-brown overskrifter-text">
+<div>
+	<img src="waves/white-camps-top-wave.png" alt="white-camps-top-wave" style="width: 100%; z-index: 10000; margin-top: -65px">
+</div>
+
+<article class="container-fluid maps-index px-0 bg-pink">
+	<div class="row bg-white">
+		<div class="col-8 ps-3  text-uppercase fw-bold text-brown overskrifter-text">
 			camps
 		</div>
 	</div>
-	<div class="row d-flex justify-content-evenly other-text g-0">
+	<div class="row d-flex justify-content-evenly bg-white other-text g-0">
 		<p class="col-3 p-0 text-center">Brun camp</p>
 		<p class="col-3 p-0 text-center">Rød camp</p>
 		<p class="col-3 p-0 text-center">Pink camp</p>
 		<p class="col-3 p-0 text-center">Gul camp</p>
 	</div>
-	<figure class="d-flex justify-content-center">
-		<img src="maps/afdelinger.png" alt="kort-over-camps" class="maps">
+	<figure class="d-flex justify-content-center bg-white">
+		<img src="maps/afdelinger.png" alt="kort-over-camps" class="maps  pb-3" >
 		<figcaption class="visually-hidden">kort over camps</figcaption>
 	</figure>
+
+
+
+
 </article>
 
-<section class="bg-pink container-fluid sponsor-container">
-	<div class="row d-flex justify-content-center align-items-center pt-3 pb-3">
+<div>
+	<img src="waves/white-camps-bottom-wave.png" alt="white-camps-bottom-wave" style="width: 100%; z-index: 10000; margin-top: -30px">
+</div>
+
+<section class="bg-pink container-fluid sponsor-container section-sponsor-index py-5">
+	<div class="row bg-pink d-flex justify-content-center align-items-center mt-3 pt-5 pb-3">
 		<div class="col-3 vertical-text text-uppercase text-red fw-bold px-0">
 			sponsorer
 		</div>
@@ -90,15 +133,7 @@
 </section>
 
 
-<nav class="container-fluid sticky-bottom bg-brown">
-	<div class="row d-flex justify-content-evenly py-3">
-		<a href="toiletter.html" class="col-2"><i class="fa-solid fa-toilet-paper text-beige"></i></a>
-		<a href="scener.html" class="col-2"><i class="fa-solid fa-map-pin text-beige"></i></a>
-		<a href="index.html" class="col-2"><i class="fa-solid fa-house text-beige"></i></a>
-		<a href="mad.html" class="col-2"><i class="fa-solid fa-burger text-beige"></i></a>
-		<a href="opladning.html" class="col-2"><i class="fa-solid fa-battery-empty text-beige"></i></a>
-	</div>
-</nav>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
