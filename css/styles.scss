@@ -37,7 +37,7 @@ html, body {
 
 
 .header-underpage-text{
-	font-size: 40px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
@@ -133,6 +133,11 @@ html, body {
 
 @media (min-width: 375px){
 
+	.header-underpage-text{
+		font-size: 30px;
+		font-weight: bold;
+	}
+
 	.section-program-index {
 		margin-top: -80px;
 		z-index: -200;
@@ -158,6 +163,11 @@ html, body {
 }
 
 @media (min-width: 425px){
+
+	.header-underpage-text{
+		font-size: 40px;
+		font-weight: bold;
+	}
 
 	.section-program-index {
 		margin-top: -90px;

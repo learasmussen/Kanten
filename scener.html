@@ -17,75 +17,84 @@
 <body>
 
 <nav class="container-fluid fixed-bottom pe-0 ps-0 mx-0"
-     style="position: fixed; bottom: 0; left: 0; width: 100vw; max-width: 100vw; overflow-x: hidden; z-index: 9999;">
+     style="position: fixed; bottom: 0; left: 0; width: 100vw; max-width: 100vw; overflow-x: hidden; z-index: 9999;"
+     role="navigation" aria-label="Bundnavigation">
 
   <div class="row d-flex justify-content-evenly m-0">
     <div class="p-0">
-      <img src="waves/nav-wave.png" alt="nav-wave"
+      <img src="waves/nav-wave.png" alt="dekoration - bølge grafik" aria-hidden="true"
            style="width: 100%; max-width: 100vw; display: block;">
     </div>
   </div>
 
   <div class="row bg-brown d-flex justify-content-evenly pb-3 m-0">
-    <a href="toiletter.html" class="col-2 text-center">
-      <i class="fa-solid fa-toilet-paper text-beige"></i>
+    <a href="toiletter.html" class="col-2 text-center" aria-label="Toiletter" role="link" tabindex="0">
+      <i class="fa-solid fa-toilet-paper text-beige" aria-hidden="true"></i>
     </a>
-    <a href="scener.html" class="col-2 text-center">
-      <i class="fa-solid fa-map-pin text-beige"></i>
+    <a href="scener.html" class="col-2 text-center" aria-label="Scener" role="link" tabindex="0">
+      <i class="fa-solid fa-map-pin text-beige" aria-hidden="true"></i>
     </a>
-    <a href="index.html" class="col-2 text-center">
-      <i class="fa-solid fa-house text-beige"></i>
+    <a href="index.html" class="col-2 text-center" aria-label="Hjem" role="link" tabindex="0">
+      <i class="fa-solid fa-house text-beige" aria-hidden="true"></i>
     </a>
-    <a href="mad.html" class="col-2 text-center">
-      <i class="fa-solid fa-burger text-beige"></i>
+    <a href="mad.html" class="col-2 text-center" aria-label="Madboder" role="link" tabindex="0">
+      <i class="fa-solid fa-burger text-beige" aria-hidden="true"></i>
     </a>
-    <a href="opladning.html" class="col-2 text-center">
-      <i class="fa-solid fa-battery-empty text-beige"></i>
+    <a href="opladning.html" class="col-2 text-center" aria-label="Opladning" role="link" tabindex="0">
+      <i class="fa-solid fa-battery-empty text-beige" aria-hidden="true"></i>
     </a>
   </div>
-
 </nav>
 
-
-<header class="container bg-red header-shadow position-relative">
+<header class="container bg-red header-shadow position-relative" role="banner">
   <div class="row">
     <div class="col-12 d-flex justify-content-end p-0">
-      <img src="logo/pink-logo.png" alt="pink-logo" class="opacity-25 top-image pt-3 pe-4 ps-0  ">
+      <img src="logo/pink-logo.png" alt="festival logo i pink" class="opacity-25 top-image pt-3 pe-4 ps-0">
     </div>
     <div class="ps-3 pe-0 vi-fester-z-index">
-      <p class="text-uppercase text-pink fw-bold header-underpage-text mb-0 ps-3" >SCENER</p>
-
+      <h1 class="text-uppercase text-pink fw-bold header-underpage-text mb-0 ps-3">SCENER</h1>
     </div>
   </div>
 </header>
 
 <div>
-  <img src="waves/red-wave.png" alt="red-wave" style="width: 100%; z-index: 10000; margin-top: -2px">
+  <img src="waves/red-wave.png" alt="dekoration - rød bølge" aria-hidden="true"
+       style="width: 100%; z-index: 10000; margin-top: -2px">
 </div>
 
-
-<section class="container">
-  <div class="row d-flex justify-content-center p-3 ">
-    <p class="col-12 text-center underpage-text">Der kan findes toiletter i alle camps. </p>
-    <p class="col-12 text-center underpage-text mb-0">Ved hver toilet post er der stillet 3 toiletvogne op.</p>
+<section class="container" aria-labelledby="toilet-info">
+  <div class="row d-flex justify-content-center p-3">
+    <p id="toilet-info" class="col-12 text-center underpage-text">
+      Der kan findes toiletter i alle camps.
+    </p>
+    <p class="col-12 text-center underpage-text mb-0">
+      Ved hver toilet post er der stillet 3 toiletvogne op.
+    </p>
   </div>
 </section>
 
-<section class="container">
+<section class="container" aria-label="Kort over scener">
   <div class="row">
     <figure class="d-flex justify-content-center bg-white">
-      <img src="maps/scener.png" alt="kort-over-scener" class="maps  pb-3" >
-      <figcaption class="visually-hidden">kort over scener</figcaption>
+      <img src="maps/scener.png" alt="kort over scener i campområdet" class="maps pb-3">
+      <figcaption class="visually-hidden">Kort der viser placering af scener i campområdet</figcaption>
     </figure>
   </div>
 </section>
 
-<article class="container mb-5 pb-5">
-  <div class="row d-flex justify-content-center p-3 ">
-    <p class="col-12 text-center fw-bold other-text">Vil du se hvem der spiller på vore scener?</p>
-    <button class="col-7 rounded-pill bg-red text-uppercase border-0 fw-bold px-3 py-2 button-text"><a href="program.html" class="text-beige text-decoration-none">Find program</a></button>
+<article class="container mb-5 pb-5" aria-labelledby="program-knap-overskrift">
+  <div class="row d-flex justify-content-center p-3">
+    <p id="program-knap-overskrift" class="col-12 text-center fw-bold other-text">
+      Vil du se hvem der spiller på vore scener?
+    </p>
+
+    <button class="col-7 rounded-pill bg-red text-uppercase border-0 fw-bold px-3 py-2 button-text"
+            aria-label="Se program for scener">
+      <a href="program.html" class="text-beige text-decoration-none">Find program</a>
+    </button>
   </div>
 </article>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
