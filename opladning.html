@@ -16,11 +16,77 @@
 
 <body>
 
-<div class="wave ">
-  <svg viewBox="0 0 500 120" class="" >
-    <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:#2f1b1a; z-index: 1000" class="shadow"></path>
-  </svg>
+<nav class="container-fluid fixed-bottom"
+     style="position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9999;">
+
+  <div class="row d-flex justify-content-evenly">
+    <div class="p-0">
+      <img src="waves/nav-wave.png" alt="nav-wave" style="width: 100%;">
+    </div>
+  </div>
+
+  <div class="row bg-brown d-flex justify-content-evenly pb-3">
+    <a href="toiletter.html" class="col-2">
+      <i class="fa-solid fa-toilet-paper text-beige"></i>
+    </a>
+    <a href="scener.html" class="col-2">
+      <i class="fa-solid fa-map-pin text-beige"></i>
+    </a>
+    <a href="index.html" class="col-2">
+      <i class="fa-solid fa-house text-beige"></i>
+    </a>
+    <a href="mad.html" class="col-2">
+      <i class="fa-solid fa-burger text-beige"></i>
+    </a>
+    <a href="opladning.html" class="col-2">
+      <i class="fa-solid fa-battery-empty text-beige"></i>
+    </a>
+  </div>
+
+</nav>
+
+
+<header class="container bg-brown header-shadow position-relative">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-end p-0">
+      <img src="logo/yellow-logo.png" alt="yellow-logo" class="opacity-25 top-image pt-3 pe-4 ps-0  ">
+    </div>
+    <div class="ps-3 pe-0 vi-fester-z-index">
+      <p class="text-uppercase text-yellow fw-bold vi-fester-text mb-0 ps-3" >OPLADNING</p>
+
+    </div>
+  </div>
+
+
+</header>
+
+<div>
+  <img src="waves/brown-wave.png" alt="brown-wave" style="width: 100%; z-index: 10000; margin-top: -2px">
 </div>
+
+
+<section class="container">
+  <div class="row d-flex justify-content-center p-3 ">
+    <p class="col-12 text-center underpage-text">Der kan findes opladere i næsten alle camps.</p>
+    <p class="col-12 text-center underpage-text mb-0">Ved opladerene kan du finde både USB-c og Dock-stik.</p>
+  </div>
+</section>
+
+<section class="container">
+  <div class="row">
+    <figure class="d-flex justify-content-center bg-white">
+      <img src="maps/opladning.png" alt="kort-over-opladning" class="maps  pb-3" >
+      <figcaption class="visually-hidden">kort over opladere</figcaption>
+    </figure>
+  </div>
+</section>
+
+<article class="container mb-5 pb-5">
+  <div class="row d-flex justify-content-center p-3 ">
+    <p class="col-12 text-center fw-bold other-text">Vil du se hvor du kan gå på toilettet?</p>
+    <button class="col-7 rounded-pill bg-red text-uppercase border-0 fw-bold px-3 py-2 button-text"><a href="toiletter.html" class="text-beige text-decoration-none">Find toiletter</a></button>
+  </div>
+</article>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>

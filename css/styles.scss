@@ -16,7 +16,7 @@ $custom-colors: (
 	"brown": #2F1B1A,
 	"red": #7A1616,
 	"pink": #E6C2C9,
-	"yellow": #FFEDAB,
+	"yellow": #FEEDAB,
 	"beige": #F3EFE6,
 );
 
@@ -93,6 +93,9 @@ header.header-shadow {
 	margin-top: -3px;
 }
 
+.underpage-text{
+	font-size: 16px;
+}
 
 /* Program-container: inner shadow top + bottom */
 .program-container {
