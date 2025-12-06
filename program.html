@@ -225,6 +225,34 @@
 
 </div>
 
+<script>
+    const bells = document.querySelectorAll('.fa-bell');
+
+    bells.forEach(bell => {
+        bell.addEventListener('click', () => {
+
+            const wasRegular = bell.classList.contains('fa-regular');
+
+            // Skift ikon
+            bell.classList.toggle('fa-regular');
+            bell.classList.toggle('fa-solid');
+
+            // Tænd animation når aktiv
+            if (wasRegular) {
+                bell.classList.add('bell-auto-shake');
+                alert("Du får en notifikation 1 time inden musikken spiller");
+            }
+            // Sluk animation når inaktiv
+            else {
+                bell.classList.remove('bell-auto-shake');
+                alert("Din notifikation er blevet annuleret");
+            }
+        });
+    });
+</script>
+
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>

@@ -130,6 +130,21 @@ html, body {
 	font-weight: bold;
 }
 
+.bell-auto-shake {
+	animation: autoShake 3s infinite ease-in-out;
+}
+
+@keyframes autoShake {
+	0% { transform: rotate(0); }
+	2% { transform: rotate(-15deg); }
+	4% { transform: rotate(12deg); }
+	6% { transform: rotate(-8deg); }
+	8% { transform: rotate(0); }
+	100% { transform: rotate(0); }
+}
+
+
+
 
 @media (min-width: 375px){
 
@@ -154,6 +169,12 @@ html, body {
 
 	.program-index{
 		padding-bottom: 30px;
+	}
+
+
+	.performers-undertext{
+		font-size: 16px;
+		font-weight: bold;
 	}
 
 	.wave-pink-program{
@@ -187,6 +208,12 @@ html, body {
 
 	.program-index{
 		padding-bottom: 30px;
+	}
+
+
+	.performers-undertext{
+		font-size: 18px;
+		font-weight: bold;
 	}
 
 
