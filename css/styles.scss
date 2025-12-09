@@ -30,6 +30,13 @@ html, body {
 	max-width: 100%;
 }
 
+.waves{
+	z-index: 100;
+}
+
+.header-waves-underpage{
+	margin-top: -2px;
+}
 
 .top-image{
 	width: 15rem;
@@ -88,7 +95,7 @@ html, body {
 
 .section-program-index {
 	margin-top: -70px;
-	z-index: -200;
+
 }
 
 .program-index{
